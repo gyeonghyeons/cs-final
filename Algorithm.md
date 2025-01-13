@@ -33,6 +33,8 @@
 **활용:**
 - 소규모 데이터의 간단한 정렬에 사용
 
+![bubble](ag-picture/bubble.png)
+
 ---
 
 ### 선택 정렬 (Selection Sort)
@@ -60,6 +62,8 @@
 
 **활용:**
 - 데이터 이동이 적은 경우 적합
+
+![select](ag-picture/select.png)
 
 ---
 
@@ -89,6 +93,10 @@
 **활용:**
 - 데이터가 거의 정렬된 경우 적합
 
+![insert](ag-picture/insert.png)
+`추후 그림 수정 예정!!`
+
+---
 ## 고급 정렬 알고리즘
 
 ### 병합 정렬 (Merge Sort)
@@ -116,6 +124,8 @@
 
 **활용:**
 - 대규모 데이터 정렬에 적합
+
+![merge](ag-picture/merge.png)
 
 ---
 
@@ -145,6 +155,8 @@
 **활용:**
 - 데이터 크기가 큰 경우 적합
 
+![quick](ag-picture/quick.png)
+
 ---
 
 ### 힙 정렬 (Heap Sort)
@@ -172,6 +184,8 @@
 
 **활용:**
 - 메모리 사용이 제한적인 경우 적합
+
+![heap](ag-picture/heap.png)
 
 ---
 
@@ -225,6 +239,7 @@
 **활용:**
 - 데이터 값이 제한적인 경우 적합
 
+`countingsort(추후 그림 제작 예정)`
 ---
 
 ### 셸 정렬 (Shell Sort)
@@ -310,6 +325,8 @@
 - **활용**:
   - 소규모 데이터나 정렬되지 않은 데이터에서 사용
 
+![linear](ag-picture/linear.png)
+
 ---
 
 ### 이진 탐색 (Binary Search)
@@ -331,6 +348,8 @@
   - 데이터가 정렬되어 있지 않다면 사용 불가
 - **활용**:
   - 정렬된 데이터에서 효율적으로 탐색할 때 사용
+
+![binary](ag-picture/binary.png)
 
 ---
 
@@ -733,6 +752,7 @@
 
 **정의:**
 - 그래프에서 모든 정점을 연결하면서 간선 가중치의 합이 최소가 되는 트리를 찾는 문제
+![mst](ag-picture/mst.png)
 
 #### 크루스칼 알고리즘 (Kruskal's Algorithm)
 
@@ -751,6 +771,8 @@
 **단점:**
 - 간선 정렬 과정이 필요
 
+![krus](ag-picture/krus.png)
+
 #### 프림 알고리즘 (Prim's Algorithm)
 
 **동작 방식:**
@@ -767,6 +789,8 @@
 
 **단점:**
 - 우선순위 큐를 사용해야 효율적임
+
+![prim](ag-picture/prim.png)
 
 ---
 
@@ -1022,6 +1046,8 @@
 **활용:**
 - 미로 찾기, 사이클 검출, 강연결 요소 탐색
 
+![dfs](ag-picture/dfs.png)
+
 ---
 
 ### 너비 우선 탐색 (BFS: Breadth-First Search)
@@ -1046,6 +1072,8 @@
 
 **활용:**
 - 최단 경로 탐색, 레벨별 탐색
+
+![bfs](ag-picture/bfs.png)
 
 ---
 
